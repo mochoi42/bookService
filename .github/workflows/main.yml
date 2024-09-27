@@ -1,6 +1,4 @@
-bookService
-
-name: Deploy To EC2
+name: bookService
 
 on:
   push:
