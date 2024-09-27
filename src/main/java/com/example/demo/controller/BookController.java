@@ -27,6 +27,7 @@ public class BookController {
 		return dao.findAll();
 	}
 	
+	
 	@PostMapping("/book/insert")
 	public String insertSubmit(Book b) {
 		dao.save(b);
