@@ -66,4 +66,4 @@ jobs:
               -e DB_URL=${{ secrets.DB_URL }} \
               -e DB_USER=${{ secrets.DB_USER }} \
               -e DB_PWD=${{ secrets.DB_PWD }} \
-              ${{ secrets.DOCKER_USER }}/bookService:latest
+              ${{ secrets.DOCKER_USER }}/book_service:latest
